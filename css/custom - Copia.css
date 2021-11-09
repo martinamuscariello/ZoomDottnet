@@ -1,0 +1,20 @@
+  .meeting-info-icon__icon-wrap {
+      display: none !important;
+  }
+  
+  #show-test-tool-btn {
+      display: none !important;
+  }
+  
+  .copertina {
+      margin-top: 60px;
+  }
+  
+  @media only screen and (min-width: 1024px) {
+      .q-a-container__tab-content-wrapper {
+          height: 200px !important;
+      }
+      .q-a-container--spare-bottom {
+          height: 400px !important;
+      }
+  }

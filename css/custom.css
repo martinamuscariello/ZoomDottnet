@@ -1,0 +1,64 @@
+.testo {
+    color: #2d2d2d;
+    font-size: 21px;
+}
+
+.meeting-info-icon__icon-wrap {
+    display: none !important;
+}
+
+#show-test-tool-btn {
+    display: none !important;
+}
+
+@media only screen and (min-width: 1024px) {
+    .q-a-container__tab-content-wrapper {
+        height: 200px !important;
+    }
+    .q-a-container--spare-bottom {
+        height: 400px !important;
+    }
+}
+
+@media screen and (min-width: 1199px) and (max-width: 1920px) {
+    #copertina {
+        margin-top: 60px!important;
+        width: 1150px;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+    #copertina {
+        margin-top: 60px!important;
+        width: 1150px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #copertina {
+        margin-top: 60px!important;
+        width: 760px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+    #copertina {
+        margin-top: 110px!important;
+        width: 690px;
+    }
+    .testo {
+        color: #2d2d2d;
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .testo {
+        color: #2d2d2d;
+        font-size: 15px;
+    }
+    #copertina {
+        margin-top: 120px;
+        width: 298px;
+    }
+}
